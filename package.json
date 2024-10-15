@@ -1,0 +1,23 @@
+{
+  "name": "vue3-pnpm-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev:vue-demo1": "vite packages/vue-demo1",
+    "dev:vue-demo2": "vite packages/vue-demo2",
+    "dev:vue-demo3": "vite packages/vue-demo3"
+  },
+  "dependencies": {
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6"
+  },
+  "keywords": [],
+  "author": "HKH",
+  "license": "ISC"
+}
