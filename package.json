@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev:vue-demo1": "vite packages/vue-demo1",
     "dev:vue-demo2": "vite packages/vue-demo2",
